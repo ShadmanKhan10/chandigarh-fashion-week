@@ -1,0 +1,32 @@
+.footer-container {
+  /* border: 2px solid black; */
+  height: 20vw;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footer-description {
+  /* border: 2px solid black; */
+  width: 60vw;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -3vw;
+  left: 20vw;
+  font-style: italic;
+}
+
+.footer-image-container {
+  /* border: 2px solid black; */
+  height: 12vw;
+  width: 40vw;
+  position: relative;
+  top: -6.5vw;
+  left: 32vw;
+}
+.footerImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

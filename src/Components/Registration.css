@@ -1,0 +1,191 @@
+.registration-container {
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 38vw;
+  left: 0;
+  /* height: 70vw; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-containing-div {
+  /* border: 2px solid green; */
+  width: 90vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 16vw;
+  position: relative;
+  left: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  top: -3vw;
+}
+
+.text-description {
+  color: #ffffff;
+  text-align: center;
+}
+.input-field-container {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid yellow; */
+  width: 65vw;
+  position: relative;
+  gap: 4vw;
+  margin-bottom: 4vw;
+}
+input::placeholder {
+  color: rgba(21, 135, 221, 0.9);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.nameIcon-container {
+  height: 8vw;
+  width: 8vw;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-icon {
+  height: 5vw;
+  width: 4vw;
+  object-fit: cover;
+}
+
+.name-field {
+  height: 8vw;
+  border-radius: 2vw;
+  border: 0.3vw solid white;
+  background: transparent;
+  background-color: #1587dd6e;
+  padding-left: 10vw;
+  color: #ffffff;
+  outline: none;
+}
+.mobileIcon-container {
+  height: 8vw;
+  width: 8vw;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-icon {
+  height: 5vw;
+  width: 3vw;
+  object-fit: cover;
+}
+
+.mobileNo-field {
+  height: 8vw;
+  border-radius: 2vw;
+  border: 0.3vw solid white;
+  background: transparent;
+  background-color: #1587dd6e;
+  padding-left: 10vw;
+  color: #ffffff;
+  outline: none;
+}
+.CompanyIcon-container {
+  height: 8vw;
+  width: 8vw;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 24vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-icon {
+  height: 5vw;
+  width: 4vw;
+  object-fit: cover;
+}
+.company-field {
+  height: 8vw;
+  border-radius: 2vw;
+  border: 0.3vw solid white;
+  background: transparent;
+  background-color: #1587dd6e;
+  padding-left: 10vw;
+  color: #ffffff;
+  outline: none;
+}
+.locationIcon-container {
+  height: 8vw;
+  width: 8vw;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 36vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-icon {
+  height: 5vw;
+  width: 4vw;
+  object-fit: cover;
+}
+
+.location-field {
+  height: 8vw;
+  border-radius: 2vw;
+  border: 0.3vw solid white;
+  background: transparent;
+  background-color: #1587dd6e;
+  padding-left: 10vw;
+  color: #ffffff;
+  outline: none;
+}
+.captureIcon-container {
+  height: 8vw;
+  width: 8vw;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 48vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capture-icon {
+  height: 5vw;
+  width: 5vw;
+  object-fit: cover;
+}
+
+.capture-selfie-field {
+  height: 8vw;
+  border-radius: 2vw;
+  border: 0.3vw solid white;
+  background: transparent;
+  background-color: #1587dd6e;
+  padding-left: 10vw;
+  color: #ffffff;
+  outline: none;
+}
+.button-container {
+  /* border: 2px solid antiquewhite; */
+  height: 9vw;
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  width: 30vw;
+  height: 100%;
+  background-color: #254689;
+  border: none;
+  border-radius: 2vw;
+  color: white;
+}

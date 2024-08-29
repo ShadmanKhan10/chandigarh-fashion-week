@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
+import CaptureIcon from "../assets/CaptureIcon.png";
+import LocationIcon from "../assets/LocationIcon.png";
+import CompanyIcon from "../assets/CompanyIcon.png";
+import nameIcon from "../assets/nameIcon.png";
+import mobileIcon from "../assets/mobileIcon.png";
+import "./Registration.css";
 
 export default function Registration() {
   const [name, setName] = useState("");
@@ -8,7 +14,7 @@ export default function Registration() {
   const [companyName, setCompanyName] = useState("");
   const [profileImg, setProfileImg] = useState(null);
   const [profileImgBase64, setProfileImgBase64] = useState("");
-  const [success, setSuccess] = useState("");
+  //   const [success, setSuccess] = useState("");
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -64,48 +70,74 @@ export default function Registration() {
   };
 
   return (
-    <div>
+    <div className="registration-container">
+      <div className="text-containing-div">
+        <p className="text-description">
+          Please fill in your details below to register yourself for the
+          Chandigarh Times Fashion Week 2024
+        </p>
+      </div>
+
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Name"
-          value={name}
-          onChange={handleNameChange}
-        />
-        <input
-          type="number"
-          placeholder="Mobile Number"
-          value={mobileNo}
-          onChange={handleMobileNoChange}
-        />
-        <input
-          type="text"
-          placeholder="Company Name"
-          value={companyName}
-          onChange={handleCompanyNameChange}
-        />
-        <input
-          type="text"
-          placeholder="Location"
-          value={location}
-          onChange={handleLocationChange}
-        />
-        <input type="file" onChange={handleProfileImageChange} />
-        <div>
-          {profileImg && (
-            <img
-              src={profileImg}
-              alt="Profile Preview"
-              height={100}
-              width={150}
-            />
-          )}
+        <div className="input-field-container">
+          <div className="nameIcon-container">
+            <img className="name-icon" src={nameIcon} alt="icon" />
+          </div>
+          <input
+            className="name-field"
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={handleNameChange}
+          />
+          <div className="mobileIcon-container">
+            <img className="mobile-icon" src={mobileIcon} alt="icon" />
+          </div>
+          <input
+            className="mobileNo-field"
+            type="number"
+            placeholder="Mobile Number"
+            value={mobileNo}
+            onChange={handleMobileNoChange}
+          />
+          <div className="CompanyIcon-container">
+            <img className="company-icon" src={CompanyIcon} alt="icon" />
+          </div>
+          <input
+            className="company-field"
+            type="text"
+            placeholder="Company Name"
+            value={companyName}
+            onChange={handleCompanyNameChange}
+          />
+
+          <div className="locationIcon-container">
+            <img className="location-icon" src={LocationIcon} alt="icon" />
+          </div>
+          <input
+            className="location-field"
+            type="text"
+            placeholder="Location"
+            value={location}
+            onChange={handleLocationChange}
+          />
+          <div className="captureIcon-container">
+            <img className="capture-icon" src={CaptureIcon} alt="icon" />
+          </div>
+
+          <input
+            className="capture-selfie-field"
+            type="text"
+            placeholder="Capture Selfie"
+          />
         </div>
 
-        <button type="submit">Submit</button>
+        <div className="button-container">
+          <button type="submit" className="submit-btn">
+            SUBMIT
+          </button>
+        </div>
       </form>
-      {success === "success" && <h1>Success</h1>}
-      {success === "failure" && <h1>Failed</h1>}
     </div>
   );
 }
