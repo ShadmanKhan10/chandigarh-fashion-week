@@ -1,5 +1,5 @@
 .main-logo-container {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: 30vw;
   width: 100vw;
   position: absolute;
@@ -9,7 +9,7 @@
   justify-content: center;
 }
 .logo-containing-div {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   height: 100%;
   width: 30vw;
 }

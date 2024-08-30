@@ -8,8 +8,8 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-      <Cover />
-      <Logo />
+      {/* <Cover /> */}
+      {/* <Logo /> */}
       <Registration />
       <Note />
       <Footer />
