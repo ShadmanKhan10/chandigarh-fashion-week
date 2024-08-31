@@ -4,7 +4,11 @@ import "./Logo.css";
 export default function Logo() {
   return (
     <div className="main-logo-container">
-      <div className="logo-containing-div"></div>
+      <img
+        src="https://www.logo.wine/a/logo/Microsoft_Store/Microsoft_Store-Logo.wine.svg"
+        alt="logo"
+        className="logo"
+      />
     </div>
   );
 }

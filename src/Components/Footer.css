@@ -1,7 +1,7 @@
 .footer-container {
   /* border: 2px solid black; */
   height: 20vw;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
 }
@@ -16,11 +16,12 @@
   left: 20vw;
   font-style: italic;
   font-size: 3.9vw;
+  padding-bottom: 0.9vw;
 }
 
 .footer-image-container {
   /* border: 2px solid black; */
-  height: 12vw;
+  height: 11vw;
   width: 40vw;
   position: relative;
   top: -6.5vw;

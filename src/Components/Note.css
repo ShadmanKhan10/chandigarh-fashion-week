@@ -2,13 +2,16 @@
   background-color: #e6e9f1;
   /* border: 2px solid black; */
   width: 100vw;
-  position: absolute;
-  bottom: 20.5vw;
   height: 23vw;
+  margin-top: 3vw;
+  position: absolute;
+  bottom: 20vw;
+  margin-bottom: 1vw;
 }
 .list-heading {
   font-size: 3.6vw;
   /* border: 2px solid black; */
+  /* padding: 1.7vw 0vw; */
   position: relative;
   top: -2vw;
   left: -8vw;

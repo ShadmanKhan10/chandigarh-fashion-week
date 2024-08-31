@@ -1,15 +1,16 @@
 .main-logo-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 30vw;
   width: 100vw;
-  position: absolute;
-  top: 7vw;
-  left: 0;
+  margin-top: 5vw;
+  /* position: relative;
+  top: 3vw;
+  left: 0; */
   display: flex;
   justify-content: center;
 }
-.logo-containing-div {
-  border: 2px solid green;
+.logo {
   height: 100%;
   width: 30vw;
+  object-fit: cover;
 }
