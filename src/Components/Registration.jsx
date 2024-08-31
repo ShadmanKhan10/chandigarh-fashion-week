@@ -54,10 +54,10 @@ export default function Registration() {
     reader.readAsDataURL(file);
   };
 
-  const handleTestSubmit = (event) => {
-    event.preventDefault();
-    setSuccess(true);
-  };
+  // const handleTestSubmit = (event) => {
+  //   event.preventDefault();
+  //   setSuccess(true);
+  // };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
