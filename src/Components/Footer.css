@@ -1,9 +1,10 @@
 .footer-container {
   /* border: 2px solid black; */
   height: 20vw;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
   width: 100vw;
+  margin-top: 7vw;
 }
 
 .footer-description {

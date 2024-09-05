@@ -7,7 +7,7 @@ import Footer from "./Footer";
 export default function Cover() {
   return (
     <>
-      <Logo />
+      {/* <Logo /> */}
       <Registration />
       <Footer />
     </>

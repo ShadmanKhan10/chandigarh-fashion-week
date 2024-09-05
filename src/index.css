@@ -3,6 +3,14 @@
 }
 body {
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-image: url("./assets/Background.jpg");
+  font-family: "Proxima Nova Rg";
+}
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("./assets/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

@@ -1,16 +1,16 @@
-.main-logo-container {
+.main-logged-container {
   /* border: 2px solid red; */
   height: 30vw;
   width: 100vw;
   margin-top: 5vw;
   /* position: relative;
-    top: 3vw;
-    left: 0; */
+      top: 3vw;
+      left: 0; */
   display: flex;
   justify-content: center;
 }
-.logo {
+.logged-logo {
   height: 100%;
-  width: 30vw;
+  width: 100%;
   object-fit: contain;
 }

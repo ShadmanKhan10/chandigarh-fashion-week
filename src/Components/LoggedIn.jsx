@@ -33,9 +33,12 @@
 //   );
 // }
 
-import React from "react";
+import React, { useState } from "react";
 import "./LoggedIn.css";
+import sponsorsImage from "../assets/sponsorsImage.png";
+import designerImage from "../assets/designerImage.png";
 import Footer from "./Footer";
+import LoggedLogo from "./LoggedLogo";
 
 export default function LoggedIn({ name, userSelfie }) {
   return (
@@ -64,7 +67,36 @@ export default function LoggedIn({ name, userSelfie }) {
           </p>
         </div>
       </div>
-      <Footer />
+      <p
+        style={{
+          textAlign: "center",
+          color: "white",
+          fontStyle: "italic",
+
+          position: "relative",
+          top: "3.5vw",
+        }}
+      >
+        Partners
+      </p>
+      <div className="sponser-img-container">
+        <img src={sponsorsImage} className="sponser-img" alt="sponser" />
+      </div>
+      <p
+        style={{
+          textAlign: "center",
+          color: "white",
+          fontStyle: "italic",
+          position: "relative",
+          top: "3.5vw",
+        }}
+      >
+        Designers
+      </p>
+      <div className="designer-img-container">
+        <img src={designerImage} className="designer-img" alt="designers" />
+      </div>
+      {/* <Footer /> */}
     </>
   );
 }

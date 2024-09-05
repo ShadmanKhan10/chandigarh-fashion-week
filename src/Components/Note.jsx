@@ -6,7 +6,15 @@ export default function Note() {
     <div className="note-container">
       <ul>
         <p className="list-heading">Please Note</p>
-        <li className="list-item">
+        <li
+          className="list-item"
+          style={{
+            backgroundColor: "#FFDC00",
+            fontWeight: "bold",
+            padding: "0.5vw",
+            marginBottom: "0.5vw",
+          }}
+        >
           It is mandatory to carry your Physical Show Pass along with you at the
           venue
         </li>
