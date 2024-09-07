@@ -43,11 +43,19 @@
   height: 100%;
   object-fit: cover;
 }
+.camera-click-container {
+  /* border: 2px solid green; */
+  position: absolute;
+  bottom: 15vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+}
 
 .click-container {
   /* border: 2px solid yellow; */
-  position: absolute;
-  bottom: 20vw;
+  position: relative;
+  /* bottom: 20vw; */
   left: 50%;
   transform: translateX(-50%);
   height: 25vw;
@@ -60,7 +68,7 @@
 }
 .camera-container {
   /* border: 2px solid yellow; */
-  position: absolute;
+  position: relative;
   bottom: 23vw;
   left: 89%;
   transform: translateX(-89%);
@@ -78,7 +86,7 @@
   position: absolute;
   height: 10vw;
   width: 100vw;
-  bottom: 20vw;
+  bottom: 40vw;
   display: flex;
   /* justify-content: space-around; */
   justify-content: center;
@@ -93,6 +101,7 @@
   border-radius: 2vw;
   border: 0.5vw solid white;
   cursor: pointer;
+  position: relative;
 }
 
 .retake-btn {
@@ -104,4 +113,5 @@
   border: 0.5vw solid white;
   cursor: pointer;
   margin-right: 10vw;
+  position: relative;
 }

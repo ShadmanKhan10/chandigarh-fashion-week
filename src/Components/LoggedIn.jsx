@@ -54,9 +54,9 @@ export default function LoggedIn({ name, userSelfie }) {
         <div className="login-msg-container">
           <p className="name-description">Hi, {name}</p>
           <p className="login-msg-description">
-            Thank you for registering for the Chandigarh Times Fashion
-            <br /> Week event. Get ready for an exciting day full of fashion,
-            style,trends, and unforgettable moments
+            Thank you for registering for the Chandigarh Times Fashion Week
+            event. Get ready for an exciting day full of fashion, style,trends,
+            and unforgettable moments
           </p>
           <p className="login-msg-description">
             Please ensure that you carry your Physical Show Pass along with you

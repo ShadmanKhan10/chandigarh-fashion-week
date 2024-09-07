@@ -16,11 +16,11 @@ export default function Note() {
           }}
         >
           It is mandatory to carry your Physical Show Pass along with you at the
-          venue
+          venue.
         </li>
         <li className="list-item">
           The information you've provided enables us to promptly share your
-          exclusive event pictures with you
+          exclusive event pictures with you.
         </li>
       </ul>
     </div>
